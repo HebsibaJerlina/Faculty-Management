@@ -1,0 +1,119 @@
+html, body {
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+ 
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f2f2f2;
+
+}
+
+ 
+
+/* Container styling */
+
+.profile-container {
+
+    width: 500px;
+
+    margin: 50px auto;
+
+    padding: 30px;
+
+    background-color: #fff;
+
+    border-radius: 10px;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    transition: transform 0.3s ease-in-out;
+
+}
+
+ 
+
+.profile-container:hover {
+
+    transform: translateY(-5px);
+
+}
+
+ 
+
+/* Heading styling */
+
+.profile-container h2 {
+
+    margin-bottom: 20px;
+
+    text-align: center;
+
+    color: #333;
+
+}
+
+ 
+
+/* Profile info styling */
+
+.profile-info {
+
+    margin-bottom: 15px;
+
+    color: #555;
+
+}
+
+ 
+
+.profile-info label {
+
+    font-weight: bold;
+
+}
+
+ 
+
+.profile-info span {
+
+    margin-left: 10px;
+
+    color: #777;
+
+}
+
+ 
+
+/* Styling for even and odd profile-info divs */
+
+.profile-info:nth-child(even) {
+
+    background-color: #f9f9f9;
+
+    padding: 10px;
+
+    border-radius: 5px;
+
+}
+
+ 
+
+.profile-info:nth-child(odd) {
+
+    background-color: #e6f7ff;
+
+    padding: 10px;
+
+    border-radius: 5px;
+
+}
+
+ 
